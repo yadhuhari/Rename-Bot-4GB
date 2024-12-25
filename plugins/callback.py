@@ -21,7 +21,7 @@ async def about(bot,update):
 async def donatecm(bot,message):
     text = script.DONATE_TXT
     keybord = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin",url = "https://t.me/CallAdminRobot"),
+        [InlineKeyboardButton("🦋 Admin",url = "https://t.me/YourStarkk"),
         InlineKeyboardButton("✖️ Close",callback_data = "cancel") ]])
     await message.reply_text(text = text,reply_markup = keybord)    
 
@@ -76,7 +76,7 @@ async def donate(bot,update):
 
 @Client.on_callback_query(filters.regex('home'))
 async def home_callback_handler(bot, query):
-    text = f"""Hello {query.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n<b>Bot Is Made By @Madflix_Bots</b>"""
+    text = f"""<b>Hᴇʟʟᴏ {query.from_user.mention} \n\n➽ Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀғᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.\n\n➽ Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇs.\n\n➽ Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.\n\n➽ Tʜɪs Bᴏᴛ Aʟsᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.\n\nBᴏᴛ Mᴀᴅᴇ Bʏ @StarkIndustriezz</b>"""
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("📢 Updates", url="https://t.me/Madflix_Bots"),
                     InlineKeyboardButton("💬 Support", url="https://t.me/MadflixBots_Support")],
