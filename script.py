@@ -1,58 +1,58 @@
 class script(object):
-    HELP_TXT = """<b>Hey</b> {}
+    HELP_TXT = """<b>Hᴇʏ</b> {}
     
-<b>Here Is The Help For My Commands.</b>"""
+<b>Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     CAPTION_TXT = """<b><u>📝  HOW TO SET CAPTION</u></b>
 
-<b>⦿ /set_caption - Use This Command To Set Your Caption</b>
-<b>⦿ /see_caption - Use This Command To See Your Caption</b>
-<b>⦿ /del_caption - Use This Command To Delete Your Caption</b>"""
+<b>𖦹 /set_caption - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴛ Yᴏᴜʀ Cᴀᴘᴛɪᴏɴ</b>
+<b>𖦹 /see_caption - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴇ Yᴏᴜʀ Cᴀᴘᴛɪᴏɴ</b>
+<b>𖦹 /del_caption - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Cᴀᴘᴛɪᴏɴ</b>"""
    
     THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
 
-<b>⦿ You Can Add Custom Thumbnail Simply By Sending A Photo To Me....</b>
+<b>𖦹 Yᴏᴜ Cᴀɴ Aᴅᴅ Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Sɪᴍᴘʟʏ Bʏ Sᴇɴᴅɪɴɢ A Pʜᴏᴛᴏ Tᴏ Mᴇ....</b>
 
-<b>⦿ /viewthumb - Use This Command To See Your Thumbnail</b>
-<b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
+<b>𖦹 /viewthumb - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴇ Yᴏᴜʀ Tʜᴜᴍʙɴᴀɪʟ</b>
+<b>𖦹 /delthumb - Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Tʜᴜᴍʙɴᴀɪʟ</b>"""
 
-    ABOUT_TXT = """<b>🤖 My Name :</b> {}
-<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
-<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+    ABOUT_TXT = """<b>➳ Mʏ Nᴀᴍᴇ :</b> {}
+<b>➳ Lᴀɴɢᴜᴀɢᴇ :</b> <a href='https://python.org'>Pʏᴛʜᴏɴ 3</a>
+<b>➳ Library :</b> <a href='https://pyrogram.org'>Pʏʀᴏɢʀᴀᴍ 2.0</a>
+<b>➳ Sᴇʀᴠᴇʀ :</b> <a href='https://render.com'>Rᴇɴᴅᴇʀ</a>
+<b>➳ Cʜᴀɴɴᴇʟ :</b> <a href='https://t.me/StarkIndustriezz'>Sᴛᴀʀᴋ Iɴᴅᴜsᴛʀɪᴇs</a>
+<b>➳ Dᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='https://t.me/YourStarkk'>Tʜɪs Pᴇʀsᴏɴ</a>
 
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>𖣘 Bᴏᴛ Mᴀᴅᴇ Bʏ :</b> @StarkIndustriezz"""
 
     DONATE_TXT = """
-<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
+<b>🥲 Tʜᴀɴᴋs Fᴏʀ Sʜᴏᴡɪɴɢ Iɴᴛᴇʀᴇsᴛ Iɴ Dᴏɴᴀᴛɪᴏɴ! ❤️</b>
 
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
+Iғ Yᴏᴜ Lɪᴋᴇ Mʏ Bᴏᴛs & Pʀᴏᴊᴇᴄᴛs, Yᴏᴜ Cᴀɴ 🎁 Dᴏɴᴀᴛᴇ Mᴇ Aɴʏ Aᴍᴏᴜɴᴛ Fʀᴏᴍ 10 Rs Uᴘᴛᴏ Yᴏᴜʀ Cʜᴏɪᴄᴇ.
 
 <b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> 
 
-<b>📸 Send Screenshot After Donation To Activate Your Premium Plan </b> """
+<b>📸 Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ Aғᴛᴇʀ Dᴏɴᴀᴛɪᴏɴ Tᴏ Aᴄᴛɪᴠᴀᴛᴇ Yᴏᴜʀ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ </b> """
 
     ADMIN_TXT = """<b><u>🦋 ADMIN ALL COMMANDS HERE</u></b>
 
-<b>⦿ /users - Use This Command To See Total Users</b>
-<b>⦿ /allids - Use This Command To See All Users IDs</b>
-<b>⦿ /broadcast - Use This Command To Send A Message To Users</b>
-<b>⦿ /warn - Use This Command To Send A Message To A User</b>
-<b>⦿ /resetpower - Use This Command To Reset User Power</b>
-<b>⦿ /ceasepower - Use This Command To Cease User Power</b>
-<b>⦿ /addpremium - Use This Command To Add Premium To Users</b>
-<b>⦿ /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
+<b>𖦹 /users - Use This Command To See Total Users</b>
+<b>𖦹 /allids - Use This Command To See All Users IDs</b>
+<b>𖦹 /broadcast - Use This Command To Send A Message To Users</b>
+<b>𖦹 /warn - Use This Command To Send A Message To A User</b>
+<b>𖦹 /resetpower - Use This Command To Reset User Power</b>
+<b>𖦹 /ceasepower - Use This Command To Cease User Power</b>
+<b>𖦹 /addpremium - Use This Command To Add Premium To Users</b>
+<b>𖦹 /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
 
 
     METADATA_TXT = """<b><u>🖼️  HOW TO SET CUSTOM METADATA</u></b>
 
 For Example :-
 
-<code>By @Madflix_Bots</code>
+<code>Bʏ @StarkIndustriezz</code>
 
-💬 For Any Help Contact @MadflixOfficials
+💬 For Any Help Contact @YourStarkk
 """
 
 
@@ -60,7 +60,6 @@ For Example :-
 
 
 
-# Jishu Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Developer @JishuDeveloper
+# Telegram Channel @StarkIndustriezz
+# Developer @YourStarkk
