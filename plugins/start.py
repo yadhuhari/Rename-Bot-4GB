@@ -16,7 +16,10 @@ token = BOT_TOKEN
 botid = token.split(':')[0]
 
 
-
+PICS = [
+ "http://ibb.co/M1NN8D5",
+ "http://ibb.co/6YyGG2H"
+]
 
 
 @Client.on_message(filters.private & filters.command(["start"]))
