@@ -30,7 +30,7 @@ class script(object):
 
 Iғ Yᴏᴜ Lɪᴋᴇ Mʏ Bᴏᴛs & Pʀᴏᴊᴇᴄᴛs, Yᴏᴜ Cᴀɴ 🎁 Dᴏɴᴀᴛᴇ Mᴇ Aɴʏ Aᴍᴏᴜɴᴛ Fʀᴏᴍ 10 Rs Uᴘᴛᴏ Yᴏᴜʀ Cʜᴏɪᴄᴇ.
 
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> 
+<b>🛍 UPI ID:</b> <code>forgithuba@oksbi</code> 
 
 <b>📸 Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ Aғᴛᴇʀ Dᴏɴᴀᴛɪᴏɴ Tᴏ Aᴄᴛɪᴠᴀᴛᴇ Yᴏᴜʀ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ </b> """
 
