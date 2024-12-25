@@ -36,11 +36,11 @@ async def start(client, message):
     text = f"""<b>Hᴇʟʟᴏ {message.from_user.mention} \n\n➽ Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀғᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.\n\n➽ Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇs.\n\n➽ Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.\n\n➽ Tʜɪs Bᴏᴛ Aʟsᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.\n\nBᴏᴛ Mᴀᴅᴇ Bʏ @StarkIndustriezz</b>"""
     
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs 📣", url="https://t.me/Madflix_Bots"),
-        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="https://t.me/MadflixBots_Support")],
+        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs 📣", url="https://t.me/StarkIndustriezz"),
+        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 👥", url="https://t.me/YourStarkk")],
         [InlineKeyboardButton("Hᴇʟᴘ 🛠️", callback_data='help'),
         InlineKeyboardButton("Aʙᴏᴜᴛ ❤", callback_data='about')],
-        [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/MadflixOfficials")]
+        [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/YourStarkk")]
         ])
     
     await message.reply_photo(
